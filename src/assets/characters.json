@@ -1,0 +1,754 @@
+[
+  {
+    "id": 2,
+    "traditional": "一",
+    "simplified": "一",
+    "pinyin": "yī",
+    "meaning": "det.: one",
+    "frequency": 2
+  },
+  {
+    "id": 3,
+    "traditional": "在",
+    "simplified": "在",
+    "pinyin": "zài",
+    "meaning": "in, at, on, etc.",
+    "frequency": 3
+  },
+  {
+    "id": 4,
+    "traditional": "有",
+    "simplified": "有",
+    "pinyin": "yǒu",
+    "meaning": "have, possess",
+    "frequency": 4
+  },
+  {
+    "id": 5,
+    "traditional": "個",
+    "simplified": "个",
+    "pinyin": "gè",
+    "meaning": "piece, item",
+    "frequency": 5
+  },
+  {
+    "id": 6,
+    "traditional": "我",
+    "simplified": "我",
+    "pinyin": "wǒ",
+    "meaning": "I, me, ego, self",
+    "frequency": 6
+  },
+  {
+    "id": 7,
+    "traditional": "不",
+    "simplified": "不",
+    "pinyin": "bù",
+    "meaning": "non, do not, no, nowise, not, nope, nae, no more, nix",
+    "frequency": 7
+  },
+  {
+    "id": 8,
+    "traditional": "這",
+    "simplified": "这",
+    "pinyin": "zhè",
+    "meaning": "now, this, det.: this, it",
+    "frequency": 8
+  },
+  {
+    "id": 9,
+    "traditional": "他",
+    "simplified": "他",
+    "pinyin": "tā",
+    "meaning": "he, she, it, they (referring to inanimate things in object position)",
+    "frequency": 9
+  },
+  {
+    "id": 10,
+    "traditional": "也",
+    "simplified": "也",
+    "pinyin": "yě",
+    "meaning": "also, too, as well, either, even",
+    "frequency": 10
+  },
+  {
+    "id": 11,
+    "traditional": "就",
+    "simplified": "就",
+    "pinyin": "jiù",
+    "meaning": "then, at once, right away, an indicator strengthening speaker's evaluation",
+    "frequency": 11
+  },
+  {
+    "id": 12,
+    "traditional": "人",
+    "simplified": "人",
+    "pinyin": "rén",
+    "meaning": "person, people",
+    "frequency": 12
+  },
+  {
+    "id": 13,
+    "traditional": "都",
+    "simplified": "都",
+    "pinyin": "dōu",
+    "meaning": "all, even, already",
+    "frequency": 13
+  },
+  {
+    "id": 14,
+    "traditional": "說",
+    "simplified": "说",
+    "pinyin": "shuō",
+    "meaning": "speak, talk, explain, scold",
+    "frequency": 14
+  },
+  {
+    "id": 15,
+    "traditional": "而",
+    "simplified": "而",
+    "pinyin": "ér",
+    "meaning": "conj.: and yet",
+    "frequency": 15
+  },
+  {
+    "id": 16,
+    "traditional": "們",
+    "simplified": "们",
+    "pinyin": "men",
+    "meaning": "plural marker for personal pronouns or for nouns referring to people",
+    "frequency": 16
+  },
+  {
+    "id": 17,
+    "traditional": "你",
+    "simplified": "你",
+    "pinyin": "nǐ",
+    "meaning": "you",
+    "frequency": 17
+  },
+  {
+    "id": 18,
+    "traditional": "了",
+    "simplified": "了",
+    "pinyin": "le",
+    "meaning": "particle: indicating new situation or completed action",
+    "frequency": 18
+  },
+  {
+    "id": 19,
+    "traditional": "要",
+    "simplified": "要",
+    "pinyin": "yào",
+    "meaning": "want, need, must, should",
+    "frequency": 19
+  },
+  {
+    "id": 20,
+    "traditional": "會",
+    "simplified": "会",
+    "pinyin": "huì",
+    "meaning": "to be able, can, will, to meet",
+    "frequency": 20
+  },
+  {
+    "id": 21,
+    "traditional": "對",
+    "simplified": "对",
+    "pinyin": "duì",
+    "meaning": "correct, true, toward",
+    "frequency": 21
+  },
+  {
+    "id": 22,
+    "traditional": "及",
+    "simplified": "及",
+    "pinyin": "jí",
+    "meaning": "to reach, to catch up, and",
+    "frequency": 22
+  },
+  {
+    "id": 23,
+    "traditional": "和",
+    "simplified": "和",
+    "pinyin": "hé",
+    "meaning": "and, with, gentle, peaceful",
+    "frequency": 23
+  },
+  {
+    "id": 24,
+    "traditional": "與",
+    "simplified": "与",
+    "pinyin": "yǔ",
+    "meaning": "and, together with, to give",
+    "frequency": 24
+  },
+  {
+    "id": 25,
+    "traditional": "以",
+    "simplified": "以",
+    "pinyin": "yǐ",
+    "meaning": "using, taking, from a point on, because of",
+    "frequency": 25
+  },
+  {
+    "id": 26,
+    "traditional": "很",
+    "simplified": "很",
+    "pinyin": "hěn",
+    "meaning": "very, quite, pretty",
+    "frequency": 26
+  },
+  {
+    "id": 27,
+    "traditional": "種",
+    "simplified": "种",
+    "pinyin": "zhǒng",
+    "meaning": "kind, type",
+    "frequency": 27
+  },
+  {
+    "id": 28,
+    "traditional": "的",
+    "simplified": "的",
+    "pinyin": "de",
+    "meaning": "particle: emphasizing an action/situation",
+    "frequency": 28
+  },
+  {
+    "id": 29,
+    "traditional": "大",
+    "simplified": "大",
+    "pinyin": "dà",
+    "meaning": "great, big, large",
+    "frequency": 29
+  },
+  {
+    "id": 30,
+    "traditional": "能",
+    "simplified": "能",
+    "pinyin": "néng",
+    "meaning": "can or to be capable of",
+    "frequency": 30
+  },
+  {
+    "id": 31,
+    "traditional": "著",
+    "simplified": "着",
+    "pinyin": "zhe",
+    "meaning": "aspect particle",
+    "frequency": 31
+  },
+  {
+    "id": 32,
+    "traditional": "她",
+    "simplified": "她",
+    "pinyin": "tā",
+    "meaning": "she, her",
+    "frequency": 32
+  },
+  {
+    "id": 33,
+    "traditional": "那",
+    "simplified": "那",
+    "pinyin": "nà",
+    "meaning": "det.: that",
+    "frequency": 33
+  },
+  {
+    "id": 34,
+    "traditional": "上",
+    "simplified": "上",
+    "pinyin": "shàng",
+    "meaning": "on, above",
+    "frequency": 34
+  },
+  {
+    "id": 35,
+    "traditional": "但",
+    "simplified": "但",
+    "pinyin": "dàn",
+    "meaning": "conj.: but, yet, still, nevertheless, only, merely",
+    "frequency": 35
+  },
+  {
+    "id": 36,
+    "traditional": "年",
+    "simplified": "年",
+    "pinyin": "nián",
+    "meaning": "year",
+    "frequency": 36
+  },
+  {
+    "id": 37,
+    "traditional": "還",
+    "simplified": "还",
+    "pinyin": "hái",
+    "meaning": "still, yet, also, too, as well, besides",
+    "frequency": 37
+  },
+  {
+    "id": 38,
+    "traditional": "可以",
+    "simplified": "可以",
+    "pinyin": "kěyǐ",
+    "meaning": "can, may",
+    "frequency": 38
+  },
+  {
+    "id": 39,
+    "traditional": "最",
+    "simplified": "最",
+    "pinyin": "zuì",
+    "meaning": "most, to the highest degree",
+    "frequency": 39
+  },
+  {
+    "id": 40,
+    "traditional": "自己",
+    "simplified": "自己",
+    "pinyin": "zìjǐ",
+    "meaning": "oneself, self",
+    "frequency": 40
+  },
+  {
+    "id": 41,
+    "traditional": "為",
+    "simplified": "为",
+    "pinyin": "wéi",
+    "meaning": "by, for",
+    "frequency": 41
+  },
+  {
+    "id": 42,
+    "traditional": "來",
+    "simplified": "来",
+    "pinyin": "lái",
+    "meaning": "come, arrive",
+    "frequency": 42
+  },
+  {
+    "id": 43,
+    "traditional": "所",
+    "simplified": "所",
+    "pinyin": "suǒ",
+    "meaning": "that which",
+    "frequency": 43
+  },
+  {
+    "id": 44,
+    "traditional": "他們",
+    "simplified": "他们",
+    "pinyin": "tāmen",
+    "meaning": "they",
+    "frequency": 44
+  },
+  {
+    "id": 45,
+    "traditional": "兩",
+    "simplified": "两",
+    "pinyin": "liǎng",
+    "meaning": "det.: two, both",
+    "frequency": 45
+  },
+  {
+    "id": 46,
+    "traditional": "各",
+    "simplified": "各",
+    "pinyin": "gè",
+    "meaning": "det.: each, every",
+    "frequency": 46
+  },
+  {
+    "id": 47,
+    "traditional": "可",
+    "simplified": "可",
+    "pinyin": "kě",
+    "meaning": "can, may",
+    "frequency": 47
+  },
+  {
+    "id": 48,
+    "traditional": "或",
+    "simplified": "或",
+    "pinyin": "huò",
+    "meaning": "conj.: or, either or",
+    "frequency": 48
+  },
+  {
+    "id": 49,
+    "traditional": "好",
+    "simplified": "好",
+    "pinyin": "hǎo",
+    "meaning": "good",
+    "frequency": 49
+  },
+  {
+    "id": 50,
+    "traditional": "等",
+    "simplified": "等",
+    "pinyin": "děng",
+    "meaning": "conj.: and so on, etc",
+    "frequency": 50
+  },
+  {
+    "id": 51,
+    "traditional": "又",
+    "simplified": "又",
+    "pinyin": "yòu",
+    "meaning": "again, moreover",
+    "frequency": 51
+  },
+  {
+    "id": 52,
+    "traditional": "將",
+    "simplified": "将",
+    "pinyin": "jiāng",
+    "meaning": "be about to",
+    "frequency": 52
+  },
+  {
+    "id": 53,
+    "traditional": "因為",
+    "simplified": "因为",
+    "pinyin": "yīnwèi",
+    "meaning": "conj.: because, for, on account of",
+    "frequency": 53
+  },
+  {
+    "id": 54,
+    "traditional": "於",
+    "simplified": "于",
+    "pinyin": "yú",
+    "meaning": "in, at, to, from, out of, by",
+    "frequency": 54
+  },
+  {
+    "id": 55,
+    "traditional": "由",
+    "simplified": "由",
+    "pinyin": "yóu",
+    "meaning": "from, via, by, through, owing/due to",
+    "frequency": 55
+  },
+  {
+    "id": 56,
+    "traditional": "從",
+    "simplified": "从",
+    "pinyin": "cóng",
+    "meaning": "from, since, through",
+    "frequency": 56
+  },
+  {
+    "id": 57,
+    "traditional": "更",
+    "simplified": "更",
+    "pinyin": "gèng",
+    "meaning": "more, still/even more, further, furthermore",
+    "frequency": 57
+  },
+  {
+    "id": 58,
+    "traditional": "被",
+    "simplified": "被",
+    "pinyin": "bèi",
+    "meaning": "by (passive marker)",
+    "frequency": 58
+  },
+  {
+    "id": 59,
+    "traditional": "才",
+    "simplified": "才",
+    "pinyin": "cái",
+    "meaning": "then and only then, just now, only",
+    "frequency": 59
+  },
+  {
+    "id": 60,
+    "traditional": "已",
+    "simplified": "已",
+    "pinyin": "yǐ",
+    "meaning": "already",
+    "frequency": 60
+  },
+  {
+    "id": 61,
+    "traditional": "者",
+    "simplified": "者",
+    "pinyin": "zhě",
+    "meaning": "nominal suffix, one who, -er",
+    "frequency": 61
+  },
+  {
+    "id": 62,
+    "traditional": "每",
+    "simplified": "每",
+    "pinyin": "měi",
+    "meaning": "det.: every",
+    "frequency": 62
+  },
+  {
+    "id": 63,
+    "traditional": "次",
+    "simplified": "次",
+    "pinyin": "cì",
+    "meaning": "order, sequence, next",
+    "frequency": 63
+  },
+  {
+    "id": 64,
+    "traditional": "把",
+    "simplified": "把",
+    "pinyin": "bǎ",
+    "meaning": "indicating pre-verbal object",
+    "frequency": 64
+  },
+  {
+    "id": 65,
+    "traditional": "三",
+    "simplified": "三",
+    "pinyin": "sān",
+    "meaning": "det.: three",
+    "frequency": 65
+  },
+  {
+    "id": 66,
+    "traditional": "什麼",
+    "simplified": "什么",
+    "pinyin": "shénme",
+    "meaning": "anything, what",
+    "frequency": 66
+  },
+  {
+    "id": 67,
+    "traditional": "問題",
+    "simplified": "问题",
+    "pinyin": "wèntí",
+    "meaning": "problem, question, issue",
+    "frequency": 67
+  },
+  {
+    "id": 68,
+    "traditional": "其",
+    "simplified": "其",
+    "pinyin": "qí",
+    "meaning": "det.: its, his, her, their",
+    "frequency": 68
+  },
+  {
+    "id": 69,
+    "traditional": "讓",
+    "simplified": "让",
+    "pinyin": "ràng",
+    "meaning": "allow, let",
+    "frequency": 69
+  },
+  {
+    "id": 70,
+    "traditional": "此",
+    "simplified": "此",
+    "pinyin": "cǐ",
+    "meaning": "this, det.: this, here",
+    "frequency": 70
+  },
+  {
+    "id": 71,
+    "traditional": "做",
+    "simplified": "做",
+    "pinyin": "zuò",
+    "meaning": "make, do",
+    "frequency": 71
+  },
+  {
+    "id": 72,
+    "traditional": "再",
+    "simplified": "再",
+    "pinyin": "zài",
+    "meaning": "again, once more",
+    "frequency": 72
+  },
+  {
+    "id": 73,
+    "traditional": "所以",
+    "simplified": "所以",
+    "pinyin": "suǒyǐ",
+    "meaning": "conj.: so, therefore",
+    "frequency": 73
+  },
+  {
+    "id": 74,
+    "traditional": "只",
+    "simplified": "只",
+    "pinyin": "zhǐ",
+    "meaning": "only, merely",
+    "frequency": 74
+  },
+  {
+    "id": 75,
+    "traditional": "則",
+    "simplified": "则",
+    "pinyin": "zé",
+    "meaning": "then, in that case",
+    "frequency": 75
+  },
+  {
+    "id": 76,
+    "traditional": "台灣",
+    "simplified": "台湾",
+    "pinyin": "Táiwān",
+    "meaning": "Taiwan",
+    "frequency": 76
+  },
+  {
+    "id": 77,
+    "traditional": "卻",
+    "simplified": "却",
+    "pinyin": "què",
+    "meaning": "however, but, yet",
+    "frequency": 77
+  },
+  {
+    "id": 78,
+    "traditional": "並",
+    "simplified": "并",
+    "pinyin": "bìng",
+    "meaning": "simultaneously, and",
+    "frequency": 78
+  },
+  {
+    "id": 79,
+    "traditional": "位",
+    "simplified": "位",
+    "pinyin": "wèi",
+    "meaning": "location, position",
+    "frequency": 79
+  },
+  {
+    "id": 80,
+    "traditional": "想",
+    "simplified": "想",
+    "pinyin": "xiǎng",
+    "meaning": "think, want to",
+    "frequency": 80
+  },
+  {
+    "id": 81,
+    "traditional": "去",
+    "simplified": "去",
+    "pinyin": "qù",
+    "meaning": "to go, to leave",
+    "frequency": 81
+  },
+  {
+    "id": 82,
+    "traditional": "呢",
+    "simplified": "呢",
+    "pinyin": "ne",
+    "meaning": "particle: marking questions",
+    "frequency": 82
+  },
+  {
+    "id": 83,
+    "traditional": "學生",
+    "simplified": "学生",
+    "pinyin": "xuéshēng",
+    "meaning": "student",
+    "frequency": 83
+  },
+  {
+    "id": 84,
+    "traditional": "表示",
+    "simplified": "表示",
+    "pinyin": "biǎoshì",
+    "meaning": "express, indicate",
+    "frequency": 84
+  },
+  {
+    "id": 85,
+    "traditional": "到",
+    "simplified": "到",
+    "pinyin": "dào",
+    "meaning": "up until, arrive",
+    "frequency": 85
+  },
+  {
+    "id": 86,
+    "traditional": "公司",
+    "simplified": "公司",
+    "pinyin": "gōngsī",
+    "meaning": "company, corporation",
+    "frequency": 86
+  },
+  {
+    "id": 87,
+    "traditional": "如果",
+    "simplified": "如果",
+    "pinyin": "rúguǒ",
+    "meaning": "conj.: if",
+    "frequency": 87
+  },
+  {
+    "id": 88,
+    "traditional": "社會",
+    "simplified": "社会",
+    "pinyin": "shèhuì",
+    "meaning": "society, social",
+    "frequency": 88
+  },
+  {
+    "id": 89,
+    "traditional": "看",
+    "simplified": "看",
+    "pinyin": "kàn",
+    "meaning": "see, look at, watch",
+    "frequency": 89
+  },
+  {
+    "id": 90,
+    "traditional": "小",
+    "simplified": "小",
+    "pinyin": "xiǎo",
+    "meaning": "small, little",
+    "frequency": 90
+  },
+  {
+    "id": 91,
+    "traditional": "天",
+    "simplified": "天",
+    "pinyin": "tiān",
+    "meaning": "sky, heaven, day",
+    "frequency": 91
+  },
+  {
+    "id": 92,
+    "traditional": "因此",
+    "simplified": "因此",
+    "pinyin": "yīncǐ",
+    "meaning": "conj.: therefore",
+    "frequency": 92
+  },
+  {
+    "id": 93,
+    "traditional": "新",
+    "simplified": "新",
+    "pinyin": "xīn",
+    "meaning": "new, fresh",
+    "frequency": 93
+  },
+  {
+    "id": 94,
+    "traditional": "但是",
+    "simplified": "但是",
+    "pinyin": "dànshì",
+    "meaning": "conj.: but, however",
+    "frequency": 94
+  },
+  {
+    "id": 95,
+    "traditional": "它",
+    "simplified": "它",
+    "pinyin": "tā",
+    "meaning": "it (for things)",
+    "frequency": 95
+  }
+]
