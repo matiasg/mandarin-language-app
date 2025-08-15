@@ -4,6 +4,8 @@ import HomePage from './components/HomePage';
 import FlexibleQuiz from './components/FlexibleQuiz';
 import DrawingCanvas from './components/DrawingCanvas';
 import ProgressPage from './components/ProgressPage';
+import CopyCharacter from './components/CopyCharacter'; // New import
+import DrawFromDefinition from './components/DrawFromDefinition'; // New import
 import './App.css';
 
 function App() {
@@ -17,6 +19,10 @@ function App() {
         return <FlexibleQuiz />;
       case 'draw':
         return <DrawingCanvas />;
+      case 'copy-character': // New case
+        return <CopyCharacter />;
+      case 'draw-from-definition': // New case
+        return <DrawFromDefinition />;
       case 'progress':
         return <ProgressPage />;
       default:

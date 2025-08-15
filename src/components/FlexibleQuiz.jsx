@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
+import { Slider } from '@/components/ui/slider'; // Import Slider component
 import { CheckCircle, XCircle, RotateCcw, Volume2, Settings } from 'lucide-react';
 import charactersData from '@/assets/characters.json';
 
@@ -18,6 +19,7 @@ const FlexibleQuiz = () => {
   const [showSettings, setShowSettings] = useState(false);
   const [userAnswer, setUserAnswer] = useState('');
   const [isTextInput, setIsTextInput] = useState(false);
+  const [wordCount, setWordCount] = useState(1000); // New state for word count slider
 
   const modeLabels = {
     character: 'Character (汉字)',
@@ -27,11 +29,12 @@ const FlexibleQuiz = () => {
   };
 
   const generateQuestion = () => {
-    if (charactersData.length === 0) return;
+    const filteredCharacters = charactersData.slice(0, wordCount); // Filter characters based on wordCount
+    if (filteredCharacters.length === 0) return;
     
-    // Select random character
-    const randomIndex = Math.floor(Math.random() * charactersData.length);
-    const character = charactersData[randomIndex];
+    // Select random character from filtered list
+    const randomIndex = Math.floor(Math.random() * filteredCharacters.length);
+    const character = filteredCharacters[randomIndex];
     
     // Determine if we need text input or multiple choice
     const needsTextInput = (outputType === 'character' || outputType === 'pinyin');
@@ -44,7 +47,7 @@ const FlexibleQuiz = () => {
       // For meaning/audio output, use multiple choice
       const wrongOptions = [];
       while (wrongOptions.length < 3) {
-        const randomChar = charactersData[Math.floor(Math.random() * charactersData.length)];
+        const randomChar = filteredCharacters[Math.floor(Math.random() * filteredCharacters.length)];
         const option = outputType === 'meaning' ? randomChar.meaning : randomChar.pinyin;
         const correctAnswer = outputType === 'meaning' ? character.meaning : character.pinyin;
         
@@ -267,7 +270,7 @@ const FlexibleQuiz = () => {
 
   useEffect(() => {
     generateQuestion();
-  }, [inputType, outputType]);
+  }, [inputType, outputType, wordCount]); // Add wordCount to dependencies
 
   if (!currentCharacter) {
     return <div className="flex justify-center items-center h-64">Loading...</div>;
@@ -329,6 +332,20 @@ const FlexibleQuiz = () => {
                   </Button>
                 ))}
               </div>
+            </div>
+
+            {/* Word Count Slider */}
+            {/* Word Count Slider */}
+            <div>
+              <h3 className="font-semibold mb-3">Number of Characters ({wordCount})</h3>
+              <Slider
+                defaultValue={[1000]}
+                max={1000}
+                step={10}
+                onValueChange={(value) => setWordCount(value[0])}
+                className="w-[60%]"
+              />
+              <p className="text-sm text-gray-500 mt-2">Adjust to limit the characters used in the quiz.</p>
             </div>
 
             <div className="text-sm text-gray-600 bg-white p-3 rounded">

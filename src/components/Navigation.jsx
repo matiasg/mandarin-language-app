@@ -7,6 +7,8 @@ const Navigation = ({ currentView, setCurrentView }) => {
     { id: 'home', label: 'Home', icon: Home },
     { id: 'quiz', label: 'Quiz Mode', icon: BookOpen },
     { id: 'draw', label: 'Draw Mode', icon: PenTool },
+    { id: 'copy-character', label: 'Copy Character', icon: PenTool },
+    { id: 'draw-from-definition', label: 'Draw from Definition', icon: PenTool },
     { id: 'progress', label: 'Progress', icon: BarChart3 },
   ];
 

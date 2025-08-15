@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { RotateCcw, Eraser, Search } from 'lucide-react';
+import charactersData from '@/assets/characters.json'; // Import charactersData
 
 const DrawingCanvas = () => {
   const canvasRef = useRef(null);
@@ -28,6 +29,12 @@ const DrawingCanvas = () => {
       window.HanziLookup.init("orig", "/orig.json", checkReady);
     }
   }, []);
+
+  // Helper to get character meaning
+  const getCharacterMeaning = (char) => {
+    const foundChar = charactersData.find(c => c.simplified === char || c.traditional === char);
+    return foundChar ? foundChar.meaning : 'Meaning not found';
+  };
 
   const getCoordinates = (e) => {
     const canvas = canvasRef.current;
@@ -146,7 +153,13 @@ const DrawingCanvas = () => {
       // Try recognition with MMAH data first
       const matcherMMAH = new window.HanziLookup.Matcher("mmah");
       matcherMMAH.match(analyzedChar, 8, (matches) => {
-        setRecognitionResults(matches || []);
+        // HanziLookup returns scores between 0 and 1, multiply by 100 for percentage
+        const resultsWithMeaning = matches.map(match => ({
+          ...match,
+          score: match.score * 100, // Convert to percentage
+          meaning: getCharacterMeaning(match.character)
+        }));
+        setRecognitionResults(resultsWithMeaning || []);
         setIsRecognizing(false);
       });
     } catch (error) {
@@ -264,8 +277,9 @@ const DrawingCanvas = () => {
                           {result.character}
                         </div>
                         <Badge variant="secondary" className="text-xs">
-                          {Math.round(result.score * 100)}% match
+                          {Math.round(result.score)}% match
                         </Badge>
+                        <p className="text-xs text-gray-500 mt-1">{result.meaning}</p>
                       </CardContent>
                     </Card>
                   ))}
@@ -284,7 +298,9 @@ const DrawingCanvas = () => {
                       <div className="flex-1">
                         <div className="text-sm text-blue-700">
                           <div><strong>Character:</strong> {recognitionResults[0].character}</div>
-                          <div><strong>Confidence:</strong> {Math.round(recognitionResults[0].score * 100)}%</div>
+                          <div><strong>Pinyin:</strong> {charactersData.find(c => c.simplified === recognitionResults[0].character || c.traditional === recognitionResults[0].character)?.pinyin || 'N/A'}</div>
+                          <div><strong>Meaning:</strong> {recognitionResults[0].meaning}</div>
+                          <div><strong>Confidence:</strong> {Math.round(recognitionResults[0].score)}%</div>
                         </div>
                       </div>
                     </div>
