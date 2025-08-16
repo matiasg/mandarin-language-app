@@ -156,7 +156,7 @@ const DrawingCanvas = () => {
         // HanziLookup returns scores between 0 and 1, multiply by 100 for percentage
         const resultsWithMeaning = matches.map(match => ({
           ...match,
-          score: match.score * 100, // Convert to percentage
+          score: match.score,
           meaning: getCharacterMeaning(match.character)
         }));
         setRecognitionResults(resultsWithMeaning || []);

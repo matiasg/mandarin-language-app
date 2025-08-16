@@ -22,7 +22,7 @@ const FlexibleQuiz = () => {
   const [wordCount, setWordCount] = useState(1000); // New state for word count slider
 
   const modeLabels = {
-    character: 'Character (汉字)',
+    character: 'Character',
     pinyin: 'Pinyin',
     audio: 'Audio',
     meaning: 'English Meaning'
@@ -276,7 +276,7 @@ const FlexibleQuiz = () => {
     return <div className="flex justify-center items-center h-64">Loading...</div>;
   }
 
-  const accuracy = questionCount > 0 ? Math.round((score / questionCount) * 100) : 0;
+  const accuracy = questionCount > 0 ? Math.round(score * 1000 / questionCount) / 1000 : 0;
   const correctAnswer = getCorrectAnswer();
 
   return (
@@ -371,7 +371,7 @@ const FlexibleQuiz = () => {
         </Card>
         <Card>
           <CardContent className="p-4 text-center">
-            <div className="text-2xl font-bold text-green-600">{accuracy}%</div>
+            <div className="text-2xl font-bold text-green-600">{accuracy}</div>
             <div className="text-sm text-gray-600">Accuracy</div>
           </CardContent>
         </Card>
@@ -383,7 +383,7 @@ const FlexibleQuiz = () => {
           <span>Progress</span>
           <span>{questionCount}/100</span>
         </div>
-        <Progress value={(questionCount / 100) * 100} className="h-2" />
+        <Progress value={questionCount} className="h-2" />
       </div>
 
       {/* Main Quiz Card */}

@@ -86,7 +86,7 @@ const CharacterQuiz = () => {
   }
 
   const correctAnswer = quizType === 'meaning' ? currentCharacter.meaning : currentCharacter.pinyin;
-  const accuracy = questionCount > 0 ? Math.round((score / questionCount) * 100) : 0;
+  const accuracy = questionCount > 0 ? Math.round((score / questionCount)) : 0;
 
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-6">
@@ -137,7 +137,7 @@ const CharacterQuiz = () => {
           <span>Progress</span>
           <span>{questionCount}/100</span>
         </div>
-        <Progress value={(questionCount / 100) * 100} className="h-2" />
+        <Progress value={questionCount} className="h-2" />
       </div>
 
       {/* Main Quiz Card */}

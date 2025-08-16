@@ -150,7 +150,7 @@ const DrawFromDefinition = () => {
           const isCorrect = bestMatch.character === currentCharacter.simplified || bestMatch.character === currentCharacter.traditional;
           setRecognitionResult({
             character: bestMatch.character,
-            score: Math.round(bestMatch.score * 100),
+            score: Math.round(bestMatch.score),
             isCorrect: isCorrect
           });
         } else {

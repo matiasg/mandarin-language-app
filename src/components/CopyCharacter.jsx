@@ -9,7 +9,7 @@ const CopyCharacter = () => {
   const [isDrawing, setIsDrawing] = useState(false);
   const [strokes, setStrokes] = useState([]);
   const [currentStroke, setCurrentStroke] = useState([]);
-  const [currentCharacter, setCurrentCharacter] = useState(null);
+  const [currentCharacter, setCurrentCharacter] = useState([]);
   const [hanziLookupReady, setHanziLookupReady] = useState(false);
   const [recognitionResult, setRecognitionResult] = useState(null);
   const [showResult, setShowResult] = useState(false);
@@ -150,7 +150,7 @@ const CopyCharacter = () => {
           const isCorrect = bestMatch.character === currentCharacter.simplified || bestMatch.character === currentCharacter.traditional;
           setRecognitionResult({
             character: bestMatch.character,
-            score: Math.round(bestMatch.score * 100),
+            score: Math.round(bestMatch.score),
             isCorrect: isCorrect
           });
         } else {
