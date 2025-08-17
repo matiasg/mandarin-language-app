@@ -1,5 +1,7 @@
-A vibe-coding app done by [Manus](https://manus.im/) with small tweaks/fixes from me.
-I just did it to learn Chinese (mandarin) characters.
+A yet-in-progress vibe-coding app done by [Manus](https://manus.im/)
+with small tweaks/fixes from me.
+
+I'm just doing it to learn Chinese (mandarin) characters.
 
 ### install / run
 1. Clone the repo
@@ -20,3 +22,4 @@ pnpm run dev
 ### disclaimers
 - I know almost nothing of Chinese. My only knowledge comes from 2 months of Duolingo.
 - I know almost nothing of javascript. That language was Manus's choice.
+- It still has a lot of missing/wrong functionality.
